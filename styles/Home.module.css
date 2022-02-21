@@ -1,0 +1,107 @@
+.container {
+	background-color: white;
+	font-size: 18px;
+	line-height: 2;
+	max-width: 1920px;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	padding-top: 0;
+}
+
+.h1 {
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h2 {
+	font-size: 2.2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h3 {
+	font-size: 2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h5 {
+	font-size: 1.2rem;
+	text-align: center;
+	margin: 0.5rem;
+}
+
+.h6 {
+	font-size: 1rem;
+	text-align: left;
+	margin: 0.5rem;
+}
+
+.textCentered {
+	text-align: center;
+	margin: 1rem;
+}
+
+.textJustified {
+	text-align: justify;
+	margin: 1rem;
+}
+
+.highlights {
+	color: rgb(255, 84, 0);
+}
+
+.grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.card {
+	margin: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: all 0.3s ease-in-out;
+	width: 350px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card:hover {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid rgb(240, 240, 240);
+	box-shadow: rgba(14, 30, 37, 0.9) 0px 2px 4px 0px,
+		rgba(14, 30, 37, 0.9) 0px 2px 16px 0px;
+}
+
+.photos {
+	background-color: rgb(240, 240, 240);
+	border-radius: 10px;
+}

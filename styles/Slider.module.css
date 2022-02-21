@@ -1,0 +1,44 @@
+.container {
+	overflow: hidden;
+	display: flex;
+	padding: 5px;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.imgContainer {
+	display: flex;
+	width: 327px;
+	height: 300px;
+	padding: 5px;
+}
+
+.imgItem {
+	width: 327px;
+	height: 300px;
+}
+
+.arrowContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10px;
+}
+
+.arrowLeft,
+.arrowRight {
+	display: flex;
+	background-color: white;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.arrowLeft:hover {
+	background-color: rgb(240, 240, 240);
+}
+
+.arrowRight:hover {
+	background-color: rgb(240, 240, 240);
+}

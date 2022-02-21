@@ -1,0 +1,22 @@
+.container {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	height: 80vh;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.branding {
+	position: absolute;
+	top: 50%;
+	right: 8%;
+}
+
+.logo {
+	font-size: 30px;
+	color: white;
+	background-clip: text;
+	text-shadow: 1px 1px 1px #757575, 2px 2px 2px #000000, 3px 3px 3px #d8d8d8;
+}
