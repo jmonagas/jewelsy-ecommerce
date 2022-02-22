@@ -22,6 +22,7 @@ const Navbar = () => {
 								src={"/img/menu_icon.png"}
 								width={30}
 								height={30}
+								objectFit="cover"
 								alt="Display Menu Bar"
 								title="Display Menu Bar"
 								onClick={() => setOpen(!open)}

@@ -17,6 +17,7 @@ const Footer = () => {
 							src={"/img/jewelsy_logo.png"}
 							alt="Jewelsy Logo"
 							title="Jewelsy Logo"
+							objectFit="cover"
 							width={30}
 							height={30}
 						/>

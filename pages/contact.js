@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Contact.module.css";
+import Slider from "../components/Slider";
 
 export default function Contact() {
 	return (
@@ -20,6 +21,7 @@ export default function Contact() {
 				/>
 			</Head>
 			<div className={styles.container}>
+				<Slider />
 				<main className={styles.main}>
 					<h1 className={styles.h1}>Contact Us</h1>
 					<p className={styles.textJustified}>

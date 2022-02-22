@@ -2,27 +2,27 @@ import styles from "../styles/productGrid.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Bracelets({ bracelet }) {
+export default function Necklaces({ necklace }) {
 	return (
 		<>
 			<div className={styles.container}>
 				<div className={styles.flexGrid}>
 					<Link
 						passHref
-						href="/bracelets/[id]"
-						as={`/bracelets/${bracelet.id}`}
+						href="/necklaces/[id]"
+						as={`/necklaces/${necklace.id}`}
 					>
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${bracelet.photo}`}
+									src={`${necklace.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"
 									alt="Janusz Jewelsy Collections"
 									title="Janusz Jewelsy Collections"
 								/>
-								{bracelet.name}&nbsp;{bracelet.id}
+								{necklace.name}&nbsp;{necklace.id}
 							</li>
 						</a>
 					</Link>

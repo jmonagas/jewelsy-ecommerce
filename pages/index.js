@@ -52,6 +52,7 @@ export default function Home() {
 									src={"/img/bracelets.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Bracelets Collection"
 									title="Bracelets Collection"
 								/>
@@ -67,6 +68,7 @@ export default function Home() {
 									src={"/img/cufflinks.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Cufflinks Collection"
 									title="Cufflinks Collection"
 								/>
@@ -82,6 +84,7 @@ export default function Home() {
 									src={"/img/diamonds.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Diamonds Collection"
 									title="Diamonds Collection"
 								/>
@@ -97,6 +100,7 @@ export default function Home() {
 									src={"/img/earrings.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Earrings Collection"
 									title="Earrings Collection"
 								/>
@@ -112,6 +116,7 @@ export default function Home() {
 									src={"/img/necklaces.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Necklaces Collection"
 									title="Necklaces Collection"
 								/>
@@ -127,6 +132,7 @@ export default function Home() {
 									src={"/img/pearls.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Pearls Collection"
 									title="Pearls Collection"
 								/>
@@ -142,6 +148,7 @@ export default function Home() {
 									src={"/img/pendants.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Pendants Collection"
 									title="Pendants Collection"
 								/>
@@ -157,6 +164,7 @@ export default function Home() {
 									src={"/img/rings.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Rings Collection"
 									title="Rings Collection"
 								/>
@@ -172,6 +180,7 @@ export default function Home() {
 									src={"/img/watches.jpg"}
 									width={222}
 									height={222}
+									objectFit="cover"
 									alt="Watches Collection"
 									title="Watches Collection"
 								/>

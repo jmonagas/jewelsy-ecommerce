@@ -14,15 +14,15 @@ const fetcher = async (url) => {
 	return data;
 };
 
-export default function Bracelet() {
+export default function Earring() {
 	const { query } = useRouter();
 	const { data, error } = useSWR(
-		() => query.id && `/api/bracelets/${query.id}`,
+		() => query.id && `/api/earrings/${query.id}`,
 		fetcher
 	);
 
 	if (error) return <div>{error.message}</div>;
-	if (!data) return <div>Retrieving bracelets data...</div>;
+	if (!data) return <div>Retrieving earrings data...</div>;
 
 	return (
 		<>
@@ -49,7 +49,7 @@ export default function Bracelet() {
 							<br />
 							<b>Price</b>:&nbsp;{data.price}
 							<br />
-							<Link passHref href={"/bracelets"}>
+							<Link passHref href={"/earrings"}>
 								<a title="Go Back" className={styles.arrowBack}>
 									<span>&#129120;&nbsp;Go Back&nbsp;&#9472;</span>
 								</a>
