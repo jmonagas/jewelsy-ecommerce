@@ -31,7 +31,7 @@ export default function Pendant() {
 				<div className={styles.wrapper}>
 					<div className={styles.flexGrid2}>
 						<Image
-							src={`${data.photo}`}
+							src={process.env.NEXT_PUBLIC_URL + `${data.photo}`}
 							width="350px"
 							height="225px"
 							objectFit="cover"

@@ -14,7 +14,7 @@ const Footer = () => {
 					Janusz&trade;
 					<span>
 						<Image
-							src={"/img/jewelsy_logo.png"}
+							src={process.env.NEXT_PUBLIC_URL + "/img/jewelsy_logo.png"}
 							alt="Jewelsy Logo"
 							title="Jewelsy Logo"
 							objectFit="cover"

@@ -19,7 +19,7 @@ const Navbar = () => {
 						<a title="Display Menu Bar">
 							<Image
 								className={styles.menuIcon}
-								src={"/img/menu_icon.png"}
+								src={process.env.NEXT_PUBLIC_URL + "/img/menu_icon.png"}
 								width={30}
 								height={30}
 								objectFit="cover"

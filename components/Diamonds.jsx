@@ -11,7 +11,7 @@ export default function Diamonds({ diamond }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${diamond.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${diamond.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"

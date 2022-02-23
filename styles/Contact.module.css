@@ -79,6 +79,10 @@
 		rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
+.card img {
+	background-color: white;
+}
+
 .card:hover {
 	cursor: pointer;
 	transition: all 0.5s ease-in-out;

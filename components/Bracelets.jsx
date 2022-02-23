@@ -15,7 +15,7 @@ export default function Bracelets({ bracelet }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${bracelet.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${bracelet.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"

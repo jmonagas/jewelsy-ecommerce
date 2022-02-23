@@ -15,7 +15,7 @@ export default function Cufflinks({ cufflink }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${cufflink.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${cufflink.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"

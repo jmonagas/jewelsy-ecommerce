@@ -49,7 +49,7 @@ export default function Home() {
 							<a className={styles.card} title="Bracelets Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/bracelets.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/bracelets.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -65,7 +65,7 @@ export default function Home() {
 							<a className={styles.card} title="Cufflinks Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/cufflinks.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/cufflinks.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -81,7 +81,7 @@ export default function Home() {
 							<a className={styles.card} title="Diamonds Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/diamonds.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/diamonds.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -97,7 +97,7 @@ export default function Home() {
 							<a className={styles.card} title="Earrings Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/earrings.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/earrings.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -113,7 +113,7 @@ export default function Home() {
 							<a className={styles.card} title="Necklaces Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/necklaces.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/necklaces.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -129,7 +129,7 @@ export default function Home() {
 							<a className={styles.card} title="Pearls Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/pearls.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/pearls.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -145,7 +145,7 @@ export default function Home() {
 							<a className={styles.card} title="Pendants Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/pendants.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/pendants.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -161,7 +161,7 @@ export default function Home() {
 							<a className={styles.card} title="Rings Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/rings.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/rings.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"
@@ -177,7 +177,7 @@ export default function Home() {
 							<a className={styles.card} title="Watches Collection">
 								<Image
 									className={styles.photos}
-									src={"/img/watches.jpg"}
+									src={process.env.NEXT_PUBLIC_URL + "/img/watches.jpg"}
 									width={222}
 									height={222}
 									objectFit="cover"

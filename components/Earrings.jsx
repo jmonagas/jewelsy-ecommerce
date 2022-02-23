@@ -11,7 +11,7 @@ export default function Earrings({ earring }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${earring.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${earring.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"

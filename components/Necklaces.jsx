@@ -15,7 +15,7 @@ export default function Necklaces({ necklace }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${necklace.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${necklace.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"

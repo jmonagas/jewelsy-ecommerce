@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Contact.module.css";
 import Slider from "../components/Slider";
+import Image from "next/image";
 
 export default function Contact() {
 	return (
@@ -44,7 +45,16 @@ export default function Contact() {
 								rel="noopener noreferrer"
 								title="Zurich, Switzerland"
 							>
-								Corporate Headquarters
+								<Image
+									src={process.env.NEXT_PUBLIC_URL + "/img/switzerland.png"}
+									width={50}
+									height={50}
+									objectFit="cover"
+									alt="Swiss Confederation Flag"
+									title="Swiss Confederation Flag"
+								/>
+								<br />
+								Headquarters
 								<br />
 								Bahnhofplatz
 								<br />
@@ -63,7 +73,16 @@ export default function Contact() {
 								rel="noopener noreferrer"
 								title="Vienna, Austria"
 							>
-								Manufacturing Centre
+								<Image
+									src={process.env.NEXT_PUBLIC_URL + "/img/austria.png"}
+									width={50}
+									height={50}
+									objectFit="cover"
+									alt="Swiss Confederation Flag"
+									title="Swiss Confederation Flag"
+								/>
+								<br />
+								Manufacturing
 								<br />
 								Karntnerstra
 								<br />
@@ -82,7 +101,16 @@ export default function Contact() {
 								rel="noopener noreferrer"
 								title="New York, U.S.A"
 							>
-								Distribution Centre
+								<Image
+									src={process.env.NEXT_PUBLIC_URL + "/img/usa.png"}
+									width={50}
+									height={50}
+									objectFit="cover"
+									alt="Swiss Confederation Flag"
+									title="Swiss Confederation Flag"
+								/>
+								<br />
+								Distribution
 								<br />
 								Trinity Plaz
 								<br />
@@ -101,7 +129,16 @@ export default function Contact() {
 								rel="noopener noreferrer"
 								title="Calgary, Canada"
 							>
-								Distribution Centre
+								<Image
+									src={process.env.NEXT_PUBLIC_URL + "/img/canada.png"}
+									width={50}
+									height={50}
+									objectFit="cover"
+									alt="Swiss Confederation Flag"
+									title="Swiss Confederation Flag"
+								/>
+								<br />
+								Distribution
 								<br />
 								Maine Avenue
 								<br />

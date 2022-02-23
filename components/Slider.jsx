@@ -24,7 +24,7 @@ const Slider = () => {
 						<div className={styles.imgContainer} key={index}>
 							<Image
 								className={styles.imgItem}
-								src={img}
+								src={process.env.NEXT_PUBLIC_URL + img}
 								alt="Janusz Jewelsy Collections"
 								title="Janusz Jewelsy Collections"
 								width={327}
@@ -38,7 +38,7 @@ const Slider = () => {
 			<div className={styles.arrowContainer}>
 				<span className={styles.arrowLeft} onClick={() => handleArrow("left")}>
 					<Image
-						src={"/img/arrow_left.jpg"}
+						src={process.env.NEXT_PUBLIC_URL + "/img/arrow_left.jpg"}
 						width={22}
 						height={22}
 						alt="Move Left"
@@ -50,7 +50,7 @@ const Slider = () => {
 					onClick={() => handleArrow("right")}
 				>
 					<Image
-						src={"/img/arrow_right.jpg"}
+						src={process.env.NEXT_PUBLIC_URL + "/img/arrow_right.jpg"}
 						width={20}
 						height={20}
 						alt="Move Right"

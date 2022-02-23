@@ -8,6 +8,10 @@
 	overflow: hidden;
 }
 
+.container img {
+	background-color: black;
+}
+
 .branding {
 	position: absolute;
 	top: 50%;

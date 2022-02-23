@@ -8,7 +8,7 @@ const Banner = () => {
 				<Image
 					priority
 					as="image"
-					src={"/img/necklace4-min.jpg"}
+					src={process.env.NEXT_PUBLIC_URL + "/img/necklace4-min.jpg"}
 					alt="Janusz Jewelsy Collections"
 					title="Janusz Jewelsy Collections"
 					layout="fill"

@@ -11,7 +11,7 @@ export default function Pearls({ pearl }) {
 						<a title="Janusz Jewelsy Collections">
 							<li className={styles.li}>
 								<Image
-									src={`${pearl.photo}`}
+									src={process.env.NEXT_PUBLIC_URL + `${pearl.photo}`}
 									width="350px"
 									height="225px"
 									objectFit="cover"
