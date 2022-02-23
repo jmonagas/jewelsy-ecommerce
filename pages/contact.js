@@ -50,8 +50,8 @@ export default function Contact() {
 									width={50}
 									height={50}
 									objectFit="cover"
-									alt="Swiss Confederation Flag"
-									title="Swiss Confederation Flag"
+									alt="Flag of Switzerland"
+									title="Flag of Switzerland"
 								/>
 								<br />
 								Headquarters
@@ -78,8 +78,8 @@ export default function Contact() {
 									width={50}
 									height={50}
 									objectFit="cover"
-									alt="Swiss Confederation Flag"
-									title="Swiss Confederation Flag"
+									alt="Flag of Austria"
+									title="Flag of Austria"
 								/>
 								<br />
 								Manufacturing
@@ -106,8 +106,8 @@ export default function Contact() {
 									width={50}
 									height={50}
 									objectFit="cover"
-									alt="Swiss Confederation Flag"
-									title="Swiss Confederation Flag"
+									alt="Flag of the U.S.A."
+									title="Flag of the U.S.A."
 								/>
 								<br />
 								Distribution
@@ -134,8 +134,8 @@ export default function Contact() {
 									width={50}
 									height={50}
 									objectFit="cover"
-									alt="Swiss Confederation Flag"
-									title="Swiss Confederation Flag"
+									alt="Flag of Canada"
+									title="Flag of Canada"
 								/>
 								<br />
 								Distribution
