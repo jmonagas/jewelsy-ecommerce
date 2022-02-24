@@ -15,14 +15,14 @@ export default function Index({ ring }) {
 			<div className={styles.container}>
 				<h1 className={styles.h1}>Collections</h1>
 				<div className={styles.flexGrid}>
-					<span>
-						Based on our 174 year&apos;s experience, we know first-hand that
+					<p>
+						Based on our 174 year&apos;s experience, we know firsthand that
 						choosing the right jewel for each client is a matter of taste and
 						precision,
 						<br />
 						with so many variables to be considered. That is why&nbsp;
 						<b>Jewelsy&reg;</b>&nbsp;does not mass produce jewelry
-					</span>
+					</p>
 				</div>
 				<div className={styles.flexGrid}>
 					<ul className={styles.ul}>
