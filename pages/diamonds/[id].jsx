@@ -61,3 +61,24 @@ export default function Diamond() {
 		</>
 	);
 }
+
+export async function getStaticProps({ params }) {
+	const res = await fetch(
+		process.env.NEXT_PUBLIC_URL + `/api/diamonds/${params.id}`
+	);
+	const data = await res.json();
+	const diamonds = data;
+	return {
+		props: { diamonds },
+		revalidate: 86400,
+	};
+}
+export async function getStaticPaths() {
+	const res = await fetch(process.env.NEXT_PUBLIC_URL + "/api/diamonds");
+	const data = await res.json();
+	const paths = data.map(({ id }) => ({ params: { id: `${id}` } }));
+	return {
+		paths,
+		fallback: true,
+	};
+}

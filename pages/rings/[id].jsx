@@ -61,3 +61,24 @@ export default function Ring() {
 		</>
 	);
 }
+
+export async function getStaticProps({ params }) {
+	const res = await fetch(
+		process.env.NEXT_PUBLIC_URL + `/api/rings/${params.id}`
+	);
+	const data = await res.json();
+	const rings = data;
+	return {
+		props: { rings },
+		revalidate: 86400,
+	};
+}
+export async function getStaticPaths() {
+	const res = await fetch(process.env.NEXT_PUBLIC_URL + "/api/rings");
+	const data = await res.json();
+	const paths = data.map(({ id }) => ({ params: { id: `${id}` } }));
+	return {
+		paths,
+		fallback: true,
+	};
+}

@@ -61,3 +61,24 @@ export default function Pendant() {
 		</>
 	);
 }
+
+export async function getStaticProps({ params }) {
+	const res = await fetch(
+		process.env.NEXT_PUBLIC_URL + `/api/pendants/${params.id}`
+	);
+	const data = await res.json();
+	const pendants = data;
+	return {
+		props: { pendants },
+		revalidate: 86400,
+	};
+}
+export async function getStaticPaths() {
+	const res = await fetch(process.env.NEXT_PUBLIC_URL + "/api/pendants");
+	const data = await res.json();
+	const paths = data.map(({ id }) => ({ params: { id: `${id}` } }));
+	return {
+		paths,
+		fallback: true,
+	};
+}
